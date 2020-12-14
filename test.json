@@ -1,0 +1,63 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Student's information",
+    "version": "1.0.0",
+    "title": "Student API",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "apiteam@swagger.io"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "petstore.swagger.io",
+  "basePath": "/",
+
+  "schemes": ["https", "http"],
+  "paths": {
+    "/join": {
+      "post": {
+        "summary": "Student Addition",
+        "description": "",
+        "operationId": "addStudent",
+        "consumes": ["application/json", "application/xml"],
+        "produces": ["application/xml", "application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "student",
+            "description": "The student to insert",
+            "required": true,
+            "schema": {
+              "ref": "#/definitions/Student"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Added students"
+          },
+          "400": {
+            "description": "Missing Parameter"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Student": {
+      "type": "object",
+      "properties": {
+        "studentID": {
+          "type": "string"
+        },
+        "batchID": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
