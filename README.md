@@ -38,3 +38,6 @@ Just a simple process which makes use of the AWS components (Lambda, RDS, API Ga
 
 ## Further Scope:
 <> Implementation of the rest of the CRUD operations. Fetch a student record, fetch multiple students based on queries, delete a student record, etc.
+
+##### Current Status:
+Error while testing the API endpoint - some issue with connecting to the database. Problem unknown. Will try to resolve later when I get some time.
