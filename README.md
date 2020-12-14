@@ -10,7 +10,7 @@ Just a simple process which makes use of the AWS components (Lambda, RDS, API Ga
 
 #### Folder Structure:
 <p align="center">
-  <img alt="Folder-Structure" width="800" height="400" src="/public/images/folder.png">
+  <img alt="Folder-Structure" width="500" height="500" src="/public/images/folder.png">
 </p>
 
 #### API Gateway:
@@ -28,7 +28,7 @@ Just a simple process which makes use of the AWS components (Lambda, RDS, API Ga
 ```
 #### Lambda Function:
 <p align="center">
-  <img alt="Lambda-Function" width="800" height="400" src="/public/images/lambdafunction.png">
+  <img alt="Lambda-Function" width="500" height="500" src="/public/images/lambdafunction.png">
 </p>
 
 #### RDS Database (MySQL):
